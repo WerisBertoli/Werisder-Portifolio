@@ -35,15 +35,15 @@ nav,
 
 nav {
   display: flex;
-  align-items: center; /* Alinha verticalmente o conteúdo */
-  justify-content: space-between; /* Espaça logo e links corretamente */
+  align-items: center; 
+  justify-content: space-between; 
   padding: 0 100px; 
   margin-top: 40px;
 }
 
 .nav-links {
   display: flex;
-  gap: 40px; /* Espaçamento entre os itens */
+  gap: 40px; 
   list-style: none;
   margin: 10;
   padding: 10;
@@ -67,13 +67,13 @@ a:hover {
 .logo {
   display: flex;
   align-items: center;
-  gap: 10px; /* Espaço entre a logo e o nome */
+  gap: 15px;
 }
 
 .logo-image {
-  width: 60px; /* Ajuste o tamanho da logo */
-  height: auto; /* Mantém a proporção */
-  border-radius: 10%; /* Deixe a logo circular, se desejar */
+  width: 70px; 
+  height: auto; 
+  border-radius: 11%; 
 }
 
 .nav-links {
@@ -84,7 +84,7 @@ a:hover {
 
 .nav-links li a {
   text-decoration: none;
-  color: #000; /* Ajuste a cor conforme o tema */
+  color: #000;
 }
 
 
