@@ -34,15 +34,19 @@ nav,
 }
 
 nav {
-  justify-content: space-around;
-  align-items: center;
-  height: 17vh;
+  display: flex;
+  align-items: center; /* Alinha verticalmente o conteúdo */
+  justify-content: space-between; /* Espaça logo e links corretamente */
+  padding: 0 100px; 
+  margin-top: 40px;
 }
 
 .nav-links {
-  gap: 2rem;
+  display: flex;
+  gap: 40px; /* Espaçamento entre os itens */
   list-style: none;
-  font-size: 1.5rem;
+  margin: 10;
+  padding: 10;
 }
 
 a {
@@ -58,13 +62,32 @@ a:hover {
   text-decoration-color: rgb(181, 181, 181);
 }
 
+
+/* logo */
 .logo {
-  font-size: 2rem;
+  display: flex;
+  align-items: center;
+  gap: 10px; /* Espaço entre a logo e o nome */
 }
 
-.logo:hover {
-  cursor: default;
+.logo-image {
+  width: 60px; /* Ajuste o tamanho da logo */
+  height: auto; /* Mantém a proporção */
+  border-radius: 10%; /* Deixe a logo circular, se desejar */
 }
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+.nav-links li a {
+  text-decoration: none;
+  color: #000; /* Ajuste a cor conforme o tema */
+}
+
+
 
 /* HAMBURGER MENU */
 
